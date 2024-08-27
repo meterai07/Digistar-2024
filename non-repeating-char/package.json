@@ -1,7 +1,7 @@
 {
   "name": "non-repeating-char",
   "version": "1.0.0",
-  "description": "",
+  "description": "Find the first non-repeating character in a string.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
