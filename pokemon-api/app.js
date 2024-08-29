@@ -1,5 +1,5 @@
 const express = require('express');
-const pokemonRoutes = require('./routes/pokemonRoutes');
+const pokemonRoutes = require('./src/routes/pokemonRoutes');
 
 require('dotenv').config();
 const app = express();
