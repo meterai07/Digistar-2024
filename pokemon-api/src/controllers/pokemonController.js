@@ -63,7 +63,7 @@ class PokemonController {
         }
     }
 
-    async headPokemon(req, res) {
+    async headPokemonById(req, res) {
         const { id } = req.params;
         try {
             response(res, 200, 'Pokemon header retrieved successfully', []);
